@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>ro.mycode</groupId>
-    <artifactId>course-service</artifactId>
+    <artifactId>online-school-course-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>course-service</name>
+    <name>online-school-course-api</name>
 
     <properties>
         <java.version>17</java.version>
