@@ -2,9 +2,9 @@
 FROM openjdk:17-jdk-slim
 
 # Metadata as described above
-LABEL maintainer="floredenis907@yahoo.com"
+LABEL maintainer="mycodeschoolro@gmail.com"
 LABEL version="1.0"
-LABEL description="Docker image for query-service Spring Boot application"
+LABEL description="Docker image for online-school-course-api Spring Boot application"
 
 # Set the current working directory inside the image
 WORKDIR /app
@@ -31,4 +31,4 @@ COPY src src
 RUN ./mvnw package -DskipTests
 
 # Specify the start command and entry point of the Spring Boot application
-ENTRYPOINT ["java","-jar","/app/target/course-service-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/app/target/online-school-course-api-0.0.1-SNAPSHOT.jar"]
